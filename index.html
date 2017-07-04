@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minmum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h3>假日旅行</h3>
+	</header>
+	<div class="main">
+		<div class="swiper-container banner">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+				<div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li>
+					<span style="background:#0f0"><i class="fa fa-home"></i></span>
+					<p>热门景点</p>
+				</li>
+				<li>
+					<span style="background:aqua"><i class="fa fa-pencil"></i></span>
+					<p>记账簿</p>
+				</li>
+				<li>
+					<span style="background:pink"><i class="fa fa-jpy"></i></span>
+					<p>境内境外</p>
+				</li>
+				<li>
+					<span style="background:blue"><i class="fa fa-gamepad"></i></span>
+					<p>轮船票</p>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<span style="background:yellow"><i class="fa fa-glass"></i></span>
+					<p>酒店</p>
+				</li>
+				<li>
+					<span style="background:orange"><i class="fa fa-plane"></i></span>
+					<p>分机票</p>
+				</li>
+				<li>
+					<span style="background:red"><i class="fa fa-subway"></i></span>
+					<p>火车票</p>
+				</li>
+				<li>
+					<span style="background:#0f0"><i class="fa fa-camera"></i></span>
+					<p>行程记录</p>
+				</li>
+			</ul>
+		</nav>
+		<div class="count">
+			<ul>
+				<li><img src="img/count_r1_c1.jpg" alt=""></li>
+				<li><img src="img/count_r1_c3.jpg" alt=""></li>
+			</ul>
+			<ul>
+				<li><img src="img/count_r3_c1.jpg" alt=""></li>
+				<li><img src="img/count_r3_c3.jpg" alt=""></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>
+				<i class="fa fa-home"></i>
+				<p>首页</p>
+			</li>
+			<li>
+				<i class="fa fa-file-o"></i>
+				<p>订单</p>
+			</li>
+			<li>
+				<i class="fa fa-user"></i>
+				<p>我的</p>
+			</li>
+			<li>
+				<i class="fa fa-ellipsis-h"></i>
+				<p>更多</p>
+			</li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container',{
+			loop:true,
+			autoplay:1000
+		});
+	</script>
+</body>
+</html>
